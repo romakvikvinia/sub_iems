@@ -1,0 +1,64 @@
+.sub-menu {
+  position: absolute;
+  background: blue;
+  list-style-type: none;
+  padding-left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  width: 100px;
+  top: 47px;
+}
+a {
+  text-decoration: none !important;
+}
+.sub-menu li {
+  width: 100%;
+  position: relative;
+  padding: 5px 10px;
+}
+ul li ul li > ul {
+  position: absolute;
+  right: -100px;
+  background: grey;
+  top: 0 !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.nav-item {
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.nav-item a {
+  color: #fff;
+}
+li:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
